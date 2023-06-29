@@ -1,0 +1,130 @@
+h2 {
+  margin: 5px 0;
+}
+.query {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  background-color: gray;
+  color: yellow;
+}
+.query .query_id {
+  display: flex;
+  width: 500px;
+  margin-top: 30px;
+}
+.query .query_id span {
+  width: 150px;
+  text-align: center;
+}
+.query .query_id input {
+  width: 300px;
+  margin-right: 50px;
+}
+.query .query_name {
+  display: flex;
+  width: 500px;
+  margin-top: 30px;
+}
+.query .query_name span {
+  width: 150px;
+  text-align: center;
+}
+.query .query_name input {
+  width: 300px;
+  margin-right: 50px;
+}
+.query .query_btn {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: 30px 0;
+}
+.query .query_btn button {
+  width: 100px;
+  height: 30px;
+}
+
+/* POST */
+.post {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  background-color: gray;
+  color: yellow;
+}
+.post .post_name {
+  display: flex;
+  width: 500px;
+  margin-top: 30px;
+}
+.post .post_name span {
+  width: 150px;
+  text-align: center;
+}
+.post .post_name input {
+  width: 300px;
+  margin-right: 50px;
+}
+.post .post_age {
+  display: flex;
+  width: 500px;
+  margin-top: 30px;
+}
+.post .post_age span {
+  width: 150px;
+  text-align: center;
+}
+.post .post_age input {
+  width: 300px;
+  margin-right: 50px;
+}
+.post .notive {
+  display: flex;
+  width: 500px;
+  margin-top: 30px;
+}
+.post .notive span {
+  width: 150px;
+  text-align: center;
+}
+.post .notive textarea {
+  width: 300px;
+  height: scrollHeight;
+  margin-right: 50px;
+  resize: vertical;
+}
+.post .btn {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin: 30px 0;
+}
+.post .btn button {
+  width: 100px;
+  height: 30px;
+}
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  background-color: gray;
+  color: yellow;
+}
+.download input {
+  margin: 30px;
+}
+.download button {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 30px;
+}

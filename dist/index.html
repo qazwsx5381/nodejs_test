@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>파일 경로</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h2>queryString 방식</h2>
+    <form action="/test">
+      <div class="query">
+        <div class="query_id">
+          <span>아이디</span>
+          <input type="text" name="id" required />
+        </div>
+        <div class="query_name">
+          <span>이름</span>
+          <input type="text" name="name" required />
+        </div>
+        <div class="query_btn">
+          <button type="submit">제출</button>
+          <button type="reset">초기화</button>
+        </div>
+      </div>
+    </form>
+    <hr />
+    <h2>POST 방식(파일 저장)</h2>
+    <form action="save" method="post">
+      <div class="post">
+        <div class="post_name">
+          <span>이름</span>
+          <input type="text" name="name" required />
+        </div>
+        <div class="post_age">
+          <span>나이</span>
+          <input type="number" name="age" required />
+        </div>
+        <div class="notive">
+          <span>문의사항</span>
+          <textarea name="notice" id="" cols="30" rows="5" required></textarea>
+        </div>
+        <div class="btn">
+          <button type="submit">제출</button>
+          <button type="reset">초기화</button>
+        </div>
+      </div>
+    </form>
+    <hr />
+    <h2>파일 업로드</h2>
+    <form action="download" method="post" enctype="multipart/form-data">
+      <div class="download">
+        <input type="file" name="file" required />
+        <button type="submit">업로드</button>
+      </div>
+    </form>
+  </body>
+</html>
